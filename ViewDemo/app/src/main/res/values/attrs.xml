@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--钟表整体颜色-->
+    <attr name="clockColor" format="color"/>
+    <!--数字大小-->
+    <attr name="numSize" format="dimension"/>
+
+    <!--秒针长度-->
+    <attr name="secondLength" format="dimension"/>
+    <!--分针长度-->
+    <attr name="minuteLength" format="dimension"/>
+    <!--时针长度-->
+    <attr name="hourLength" format="dimension"/>
+    <!--秒针宽度-->
+    <attr name="secondWidth" format="dimension"/>
+    <!--分针宽度-->
+    <attr name="minuteWidth" format="dimension"/>
+    <!--时针宽度-->
+    <attr name="hourWidth" format="dimension"/>
+
+    <!--中心外圆半径-->
+    <attr name="inCircle" format="integer"/>
+    <!--中心内圆半径-->
+    <attr name="outCircle" format="integer"/>
+
+    <declare-styleable name="ClockView">
+        <attr name="numSize"/>
+        <attr name="clockColor"/>
+        <attr name="inCircle"/>
+        <attr name="outCircle"/>
+        <attr name="secondLength"/>
+        <attr name="minuteLength"/>
+        <attr name="hourLength"/>
+        <attr name="secondWidth"/>
+        <attr name="minuteWidth"/>
+        <attr name="hourWidth"/>
+    </declare-styleable>
+
+    <declare-styleable name="TClock">
+        <!--时钟View的半径-->
+        <attr name="radius" format="dimension"/>
+        <!--大圆颜色、厚度、渲染色(支持2种颜色,shader1、shader2)、是否显示渲染色-->
+        <attr name="big_circle_color" format="color"/>
+        <attr name="big_circle_width" format="integer"/>
+        <attr name="big_circle_shader1" format="color"/>
+        <attr name="big_circle_shader2" format="color"/>
+        <attr name="big_circle_shader_show" format="boolean"/>
+        <!--小圆颜色、半径、是否显示-->
+        <attr name="small_circle_color" format="color"/>
+        <attr name="small_circle_radius" format="dimension"/>
+        <attr name="small_circle_show" format="boolean"/>
+        <!--时钟点大小、颜色、是否显示、被选中时大小、被选中时颜色、到圆心的距离(按半径百分比)-->
+        <attr name="point_radius" format="dimension"/>
+        <attr name="point_color" format="color"/>
+        <attr name="point_radius_choose" format="dimension"/>
+        <attr name="point_color_choose" format="color"/>
+        <attr name="point_radius_ratio" format="float"/>
+        <attr name="point_show" format="boolean"/>
+        <!--圆弧颜色、宽度、是否显示-->
+        <attr name="arc_color" format="color"/>
+        <attr name="arc_width" format="dimension"/>
+        <attr name="arc_show" format="boolean"/>
+        <!--中间字体大小、颜色、是否显示-->
+        <attr name="center_msg_Size" format="dimension"/>
+        <attr name="center_msg_Color" format="color"/>
+        <attr name="center_msg_show" format="boolean"/>
+        <!--时钟数字大小、颜色、被选中时大小、被选中时颜色、到圆心的距离(按半径百分比)、是否显示-->
+        <attr name="num_radius" format="dimension"/>
+        <attr name="num_color" format="color"/>
+        <attr name="num_radius_choose" format="dimension"/>
+        <attr name="num_color_choose" format="color"/>
+        <attr name="num_radius_ratio" format="float"/>
+        <attr name="num_show" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
